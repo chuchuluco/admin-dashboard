@@ -76,12 +76,29 @@ html {
     padding: 10px;
 }
 
-.card h3, .card p {
-    color: blue;
+.card h3 {
+    font-weight: 700;
 }
 
 .newsletter {
     grid-area: 1 / 2 / 3 / 2;
     display: grid;
     grid-template-rows: 1fr 5fr 1fr 3fr;
+}
+
+#announcements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#announcements div {
+    height: 33%;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.anbot, .anmid {
+    border-top: 1px solid rgba(18, 17, 17, 0.529);
 }
