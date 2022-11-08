@@ -87,16 +87,18 @@ button:focus {
     background-color:  #576490;
     grid-template-rows: 1fr 3fr 2fr;
     z-index: 3;
+    padding: 10px;
 }
 .sidebar-title {
     display: grid;
     grid-template-columns: 1fr 4fr;
 }
 
-
 .sidebar-row {
     display: inline-grid;
     grid-template-columns: 1fr 4fr;
+    gap: 10px;
+
 }
 
 .options {
