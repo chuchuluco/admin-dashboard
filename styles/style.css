@@ -29,6 +29,13 @@ html {
     box-shadow: 0px 1px 6px black;
     z-index: 2;
 }
+.header img {
+    height: 4.5vh;
+}
+
+.user-big img {
+    height: 11vh;
+}
 
 .search {
     grid-area: 1 / 1 / 1 / 2;
@@ -160,6 +167,15 @@ button:focus {
     grid-area: 1 / 2 / 3 / 2;
     display: grid;
     grid-template-rows: 1fr 5fr 1fr 3fr;
+}
+
+.new-users {
+    display: grid;
+    overflow: auto;
+}
+
+.new-user img {
+    height: 4vh;
 }
 
 #announcements {
