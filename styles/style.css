@@ -130,8 +130,16 @@ button:focus {
 }
 
 .sidebar-title {
-    display: grid;
+    display: inline-grid;
     grid-template-columns: 1fr 4fr;
+    gap: 10px;
+}
+
+.sidebar-title span {
+    font-size: 2.5em;
+}
+.sidebar-title h2 {
+    padding-top: 5px;
 }
 
 .sidebar-row {
