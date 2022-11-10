@@ -115,8 +115,18 @@ button:focus {
 }
 
 #search-bar {
-    width: 40vw;
-    border: 2px solid black;
+    width: 35vw;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    padding-left: 8px;
+}
+
+#search-bar:hover {
+    border-color: #dadce0;
+    box-shadow: rgba(0, 0, 0, 0.331) 0 1px 2px;
+    color: #202124;
 }
 
 .sidebar {
@@ -154,6 +164,7 @@ button:focus {
     cursor: pointer;
     margin-bottom: 15px;
     margin-top: 5px;
+    color: #202124d3;
 }
 
 
@@ -247,6 +258,8 @@ button:focus {
 
 #announcements p {
     font-size: .8rem;
+    text-align: justify;
+    padding: 5px;
 }
 
 a {
