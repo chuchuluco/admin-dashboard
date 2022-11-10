@@ -48,6 +48,7 @@ html {
     grid-area: 1 / 1 / 1 / 2;
     align-items: center;
     gap: 5px; 
+    padding-left: 2.22vw;
 }
 
 input[type=search] {
@@ -60,7 +61,8 @@ input[type=search] {
     display: flex;
     gap: 20px;
     align-items: center;
-    margin-left: 35%;
+    justify-content: end;
+    padding-right: 10px;
 }
 
 .user-big {
