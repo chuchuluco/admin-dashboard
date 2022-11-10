@@ -115,6 +115,7 @@ button:focus {
     z-index: 3;
     padding: 10px;
 }
+
 .sidebar-title {
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -128,14 +129,16 @@ button:focus {
 }
 
 .options {
-    display: flex;
-    flex-direction: column;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 1px solid rgba(68, 67, 67, 0.455);
+    border-bottom: 1px solid rgba(68, 67, 67, 0.455);
+
 }
 
-.utilities {
-
+.options, .utilities {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 10px;
 }
 
 .main-content {
